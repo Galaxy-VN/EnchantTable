@@ -1,0 +1,66 @@
+enchant-description:
+  protection: "Giảm phần lớn các loại sát thương phải gánh chịu."
+  fire-protection: "Thời gian cháy được rút ngắn, đồng thời thiệt hại do cháy cũng được giảm tối đa."
+  feather-falling: "Khi rơi sẽ được giảm sát thương gánh chịu."
+  blast-protection: "Giảm tối đa lượng sát thương phản lực và nổ."
+  projectile-protection: "Giảm sát thương gánh chịu do đường đạn gây ra."
+  respiration: "Giảm tỷ lệ mất không khí khi ở dưới nước."
+  aqua-affinity: "Tăng tốc độ mà người chơi có thể khai thác dưới nước."
+  thorns: "Hỗ trợ phản kháng lại lượng sát thương phải gánh chịu khi bị tấn công."
+  depth-strider: "Tăng tốc độ đi khi người chơi ở dưới nước."
+  frost-walker: "Đóng băng bất kỳ vùng nước nào gần đó thành băng/sương giá mà người chơi đang đi bên trên."
+  binding-curse: "Đồ vật luôn được trói buộc trên người, trừ khi bị vỡ hoặc ra đi mãi mãi."
+  sharpness: "Tăng sát thương đối với tất cả mục tiêu."
+  smite: "Tăng sát thương đối với các mục tiêu thây ma."
+  bane-of-arthropods: "Tăng sát thương đối với các mục tiêu động vật chân đốt."
+  knockback: "Tất cả sát thương lên các mục tiêu khác sẽ đẩy lùi chúng khi bị đánh."
+  fire-aspect: "Khi tấn công một mục tiêu, có cơ hội đốt cháy chúng."
+  looting: "Cung cấp cơ hội nhận thêm chiến lợi phẩm khi tiêu diệt quái vật."
+  sweeping: "Tăng sát thương lên mục tiêu khi sử dụng đòn quét."
+  efficiency: "Tăng tốc độ khai thác/đào của bạn."
+  silk-touch: "Cho phép các khối tự rơi ra thay vì các mảnh vỡ (ví dụ: đá thay vì đá cuội)"
+  unbreaking: "Kéo dài mức độ bền bỉ cho một vật phẩm, từ đó giúp cho nó lâu hỏng hơn."
+  fortune: "Tăng cao xác suất rơi vật phẩm từ các khối khi khai thác."
+  power: "Mũi tên bắn ra được tăng sát thương gây ra."
+  punch: "Thực thể bị bắn trúng sẽ ngay lập tức bị bật lùi."
+  flame: "Thiêu đốt đối thủ bằng mũi tên lửa."
+  infinity: "Cung cấp mũi tên vô hạn khi bắn cung."
+  luck-of-the-sea: "Nâng cao xác suất nhận được vật phẩm đặc biệt."
+  lure: "Tăng tỷ lệ cá cắn lưỡi câu của bạn."
+  loyalty: "Làm cho một cây đinh ba quay trở lại với người chơi đã ném nó."
+  impaling: "Gia tăng sát thương gây ra lên động vật sống trong đại dương."
+  riptide: "Khi trời mưa, phóng người chơi theo hướng cây đinh ba của bạn được ném."
+  channeling: "Đánh sét khi thực thể bị đánh trúng bởi đinh ba nếu điều kiện thời tiết đang là sấm sét."
+  multishot: "Bắn nhiều mũi tên từ nỏ."
+  quick-charge: "Nạp mũi tên nỏ nhanh chóng hơn."
+  piercing: "Mũi tên từ nỏ bắn xuyên qua các thực thể."
+  mending: "Cho phép sửa chữa vật phẩm bằng các quả cầu kinh nghiệm nhận được"
+  vanishing-curse: "Vật phẩm tự động bị phá huỷ nếu chẳng may bạn ra đi chứ không bị rơi xuống đất."
+  soul-speed: "Tốc độ đi trên đất và cát linh hồn được gia tăng."
+
+enchant-cost:
+  unbreaking:
+    1: 15
+    2: 20
+    3: 25
+
+bookshelf-power:
+  knockback: 1
+
+item:
+  bookshelf-power: 15
+  material: Bookshelf
+  name: "&aEnchanted Bookshelf"
+  lore:
+    - "&7Đặt gần một &9Bàn Phù Phép &7để"
+    - "&7cung cấp Sức Mạnh Tủ Sách. Sức"
+    - "&7Mạnh Tủ Sách càng cao thì càng"
+    - "&7có nhiều phù phép."
+    - ""
+    - "&7Sức Mạnh Tủ Sách: &9{bookshelf-power}"
+  glow: true
+
+messages:
+  prefix: "&8[&5EnchantTable&8] &7» "
+  reload: "&aPlugin đã tải lại thành công!"
+  give: "&aĐã thành công gửi người chơi &e{player} &ax{amount} {item}"
